@@ -1,0 +1,10 @@
+import Express from "express";
+import { login, register, logout, updateProfile, getProfile } from "../controller/authController.js";
+import { verifyToken } from "../middleware/authMiddleware.js";
+const router = Express.Router();
+router.post('/register', register);
+router.post('/login', login);
+router.post('/logout', logout);
+router.put('/profile/:id', verifyToken, updateProfile);
+router.get('/profile/:id', verifyToken, getProfile);
+export default router;

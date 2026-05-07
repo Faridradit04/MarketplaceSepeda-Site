@@ -2,7 +2,7 @@
 
 A complete bike shop management system with authentication and bike CRUD operations.
 
-## 🚀 Quick Setup
+##  Quick Setup
 
 ### Backend Setup
 
@@ -13,7 +13,7 @@ npm install
 
 Create `.env` file:
 ```
-DB_NAME=bike_shop
+DB_NAME=sepeda
 DB_USER=root
 DB_PASS=your_password
 DB_HOST=localhost
@@ -36,7 +36,7 @@ npm run dev
 
 The frontend will open at `http://localhost:5173`
 
-## 📋 Features
+##  Features
 
 ### Authentication
 - User registration with email and password validation
@@ -56,7 +56,7 @@ The frontend will open at `http://localhost:5173`
 - Dashboard with bike listings
 - Error handling and feedback
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend
 - **Express.js** - Server framework
@@ -70,13 +70,13 @@ The frontend will open at `http://localhost:5173`
 - **Axios** - HTTP client with interceptors
 - **Vanilla JavaScript** - No framework dependencies
 
-## 📊 Database Relations
+## Database Relations
 
 - **Users** have many **Shops**
 - **Shops** have many **Bikes**
 - Cascade delete enabled for data integrity
 
-## 🔐 Security Features
+##  Security Features
 
 - Password hashing with bcrypt
 - JWT token-based authentication
@@ -84,7 +84,7 @@ The frontend will open at `http://localhost:5173`
 - Request validation and sanitization
 - CORS enabled for frontend-backend communication
 
-## 🎯 API Endpoints
+##  API Endpoints
 
 ### Auth
 - `POST /api/auth/register` - Register new user
@@ -115,7 +115,7 @@ The frontend will open at `http://localhost:5173`
 - Check database user permissions
 - Verify table relationships in `model/index.js`
 
-## 📝 Next Steps
+##  Next Steps
 
 - Implement edit functionality for bikes
 - Add shop management features
@@ -127,4 +127,4 @@ The frontend will open at `http://localhost:5173`
 
 ---
 
-**Happy biking! 🏍️**
+**Happy Shopping! **
